@@ -1,0 +1,14 @@
+.scrollbar-style::-webkit-scrollbar {
+    width: 5px;
+     /* Adjust the width as needed */
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 154, 252); /* Change this to your desired color */
+    border-radius: 10px;
+    
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-thumb:hover {
+    background-color: #0051ad; /* Change this to the hover color */
+  }
