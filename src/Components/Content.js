@@ -2,24 +2,24 @@ import "./Content.css"
 
 function Content() {
   return (
-    <div className="bg-white-100 backdrop-blur lg:p-10 lg:h-[90vh] lg:w-[95vw] h-[95vh] w-[90vw] rounded-[10px] border-[1px] z-[1] border-gray-400 pl-[2vw] overflow-scroll  overflow-x-hidden scrollbar-style flex flex-col items-center text-white">
-      <h3 className=" lg:text-[5vh] text-[3vh] font-[700] lg:text-[#0F9D58] mt-[5vh] text-[#ffffff]">
+    <div className="bg-white-100 backdrop-blur lg:p-10 lg:h-[90vh] lg:w-[95vw] h-[95vh] w-[90vw] rounded-[10px] border-[1px] z-[1] border-gray-400 pl-[2vw] overflow-scroll  overflow-x-hidden scrollbar-style flex flex-col items-center text-black text-[20px]">
+      <h3 className=" lg:text-[5vh] text-[3vh] font-[800] p-3 rounded-xl bg-[#ffffff79] text-[#0F9D58] mt-[5vh] ">
         Happy to announce!
       </h3>
-      <h1 className="lg:text-[10vh] text-[7vh] text-center  font-[700] text-[#FBBC04]">
+      <h1 className="lg:text-[10vh] text-[7vh] text-center  font-[800] text-[#FBBC04]">
         Project Saadhna
       </h1>
       <div className = "flex flex-col  w-[90vw]  items-center">
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">Objective</h1>
-          <p className="ml-[5vw] text-white mr-[5vw]">
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6]">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">Objective</h1>
+          <p className="ml-[5vw]  mr-[5vw]">
             To empower selected <a className="text-blue-400 underline" href="https://www.abirami.dev/code-vipassana" target="_black" rel="noreferrer">Code Vipassana</a> developers to lead and
             continuously engage in self-paced building with Google Cloud and
             leading more developers in the community to learn, build and grow.
           </p>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6]">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">
             #ProjectSaadhna
           </h1>
           <p className="ml-[5vw]  mr-[5vw]">
@@ -29,8 +29,8 @@ function Content() {
             continuously building with Google Cloud.
           </p>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6]">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">
             Build (Sample use cases)
           </h1>
           <p className="ml-[5vw]  mr-[5vw]">
@@ -63,8 +63,8 @@ function Content() {
             </li>
           </ol>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">Workflow</h1>
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6]">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">Workflow</h1>
           <p className="ml-[5vw]  mr-[5vw]">Interested / selected Code Vipassana practitioners would</p>
           <ol className="list-decimal pl-4 ml-[5vw] mr-[5vw]">
             <li>
@@ -85,8 +85,8 @@ function Content() {
             </li>
           </ol>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6]">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">
             Stretch Goal!
           </h1>
           <p className="ml-[5vw]  mr-[5vw]">
@@ -116,18 +116,18 @@ function Content() {
             </ul>
           </p>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c] " >
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">Deliverable</h1>
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6] " >
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">Deliverable</h1>
           <p className="ml-[5vw]  mr-[5vw]">
             The deliverable from Saadhna practitioners will be in the form of <a className="text-blue-400 underline" href = "https://github.com/rominirani/googlecloud-indiacommunity-contributions" target="_blank" rel="noreferrer">repos</a>, community authored blogs (GCP channel in Medium) and labs.
           </p>
         </div>
-        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffff2c]">
-          <h1 className="text-3xl font-semibold text-[#2588FB] mb-[5vh]">
+        <div className=" w-[80vw] p-5 border-[1px] rounded-lg mt-[5vh] bg-[#ffffffb6] mb-5">
+          <h1 className="text-3xl font-bold text-[#2588FB] mb-[5vh]">
             Idea Submission Form
           </h1>
           <div className="flex flex-col justify-center items-center">
-          <a className="p-[10px] mb-[5vh] rounded-[10px] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" href="https://forms.gle/VqEocQv8nCcTQyG58"  // Replace with the desired URL
+          <a className="p-[10px] mb-[5vh] text-white rounded-[10px] transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" href="https://forms.gle/VqEocQv8nCcTQyG58"  // Replace with the desired URL
     target="_blank" rel="noreferrer">Intake Form</a>
           <p >Once you submit, we will follow-up with you.</p>
           </div>
