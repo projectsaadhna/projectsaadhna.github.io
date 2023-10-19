@@ -25,9 +25,9 @@ const MouseFollower = () => {
     borderRadius: '50%',
   };
 
-  const hideOnMobile = '@media (max-width: 768px) { display: none; }';
+  const hideOnMobile = '@media (min-width: 768px) { display: none; }';
 
-  return <div style={{ ...divStyle, ...{ hideOnMobile } }}></div>;
+  return <div className='hidden md:block' style={{ ...divStyle, ...{ hideOnMobile } }}></div>;
 };
 
 export default MouseFollower;
