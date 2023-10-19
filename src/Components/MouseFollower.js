@@ -21,7 +21,7 @@ const MouseFollower = () => {
     left: `${position.x -40}px`,
     width: '80px',
     height: '80px',
-    backgroundColor: '#2588FB',
+    backgroundColor: 'lightgray',
     borderRadius: '50%',
   };
 
