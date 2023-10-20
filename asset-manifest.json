@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.38422575.css",
-    "main.js": "/static/js/main.b38384bf.js",
+    "main.css": "/static/css/main.027a1c3e.css",
+    "main.js": "/static/js/main.cce6139f.js",
+    "static/media/vertexai.gif": "/static/media/vertexai.f889d99af75691cc0b5d.gif",
+    "static/media/todo.png": "/static/media/todo.f56062544696daffee38.png",
     "index.html": "/index.html",
-    "main.38422575.css.map": "/static/css/main.38422575.css.map",
-    "main.b38384bf.js.map": "/static/js/main.b38384bf.js.map"
+    "main.027a1c3e.css.map": "/static/css/main.027a1c3e.css.map",
+    "main.cce6139f.js.map": "/static/js/main.cce6139f.js.map"
   },
   "entrypoints": [
-    "static/css/main.38422575.css",
-    "static/js/main.b38384bf.js"
+    "static/css/main.027a1c3e.css",
+    "static/js/main.cce6139f.js"
   ]
 }
